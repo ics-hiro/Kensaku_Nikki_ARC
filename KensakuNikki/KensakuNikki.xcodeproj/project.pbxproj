@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1F38661567EC1B0060AFE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1F38651567EC1B0060AFE6 /* UIKit.framework */; };
+		DB1F38681567EC1B0060AFE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1F38671567EC1B0060AFE6 /* Foundation.framework */; };
+		DB1F386A1567EC1B0060AFE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1F38691567EC1B0060AFE6 /* CoreGraphics.framework */; };
+		DB1F38701567EC1B0060AFE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB1F386E1567EC1B0060AFE6 /* InfoPlist.strings */; };
+		DB1F38721567EC1B0060AFE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1F38711567EC1B0060AFE6 /* main.m */; };
+		DB1F38761567EC1B0060AFE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1F38751567EC1B0060AFE6 /* AppDelegate.m */; };
+		DB1F38791567EC1B0060AFE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1F38781567EC1B0060AFE6 /* ViewController.m */; };
+		DB1F387C1567EC1B0060AFE6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB1F387A1567EC1B0060AFE6 /* ViewController.xib */; };
+		DB1F38831567EC2F0060AFE6 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1F38821567EC2F0060AFE6 /* libsqlite3.0.dylib */; };
+		DB1F388F1567EC420060AFE6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1F38861567EC420060AFE6 /* FMDatabase.m */; };
+		DB1F38901567EC420060AFE6 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1F38881567EC420060AFE6 /* FMDatabaseAdditions.m */; };
+		DB1F38911567EC420060AFE6 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1F388A1567EC420060AFE6 /* FMDatabasePool.m */; };
+		DB1F38921567EC420060AFE6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1F388C1567EC420060AFE6 /* FMDatabaseQueue.m */; };
+		DB1F38931567EC420060AFE6 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1F388E1567EC420060AFE6 /* FMResultSet.m */; };
+		DB1F389D1567ECBA0060AFE6 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1F38991567ECBA0060AFE6 /* WebViewController.m */; };
+		DB1F389E1567ECBA0060AFE6 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB1F389A1567ECBA0060AFE6 /* WebViewController.xib */; };
+		DB1F389F1567ECBA0060AFE6 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1F389C1567ECBA0060AFE6 /* Util.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB1F38611567EC1B0060AFE6 /* KensakuNikki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KensakuNikki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1F38651567EC1B0060AFE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB1F38671567EC1B0060AFE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB1F38691567EC1B0060AFE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB1F386D1567EC1B0060AFE6 /* KensakuNikki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KensakuNikki-Info.plist"; sourceTree = "<group>"; };
+		DB1F386F1567EC1B0060AFE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB1F38711567EC1B0060AFE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB1F38731567EC1B0060AFE6 /* KensakuNikki-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KensakuNikki-Prefix.pch"; sourceTree = "<group>"; };
+		DB1F38741567EC1B0060AFE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB1F38751567EC1B0060AFE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB1F38771567EC1B0060AFE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB1F38781567EC1B0060AFE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB1F387B1567EC1B0060AFE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		DB1F38821567EC2F0060AFE6 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		DB1F38851567EC420060AFE6 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		DB1F38861567EC420060AFE6 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		DB1F38871567EC420060AFE6 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		DB1F38881567EC420060AFE6 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		DB1F38891567EC420060AFE6 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		DB1F388A1567EC420060AFE6 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		DB1F388B1567EC420060AFE6 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		DB1F388C1567EC420060AFE6 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		DB1F388D1567EC420060AFE6 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		DB1F388E1567EC420060AFE6 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		DB1F38981567ECBA0060AFE6 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		DB1F38991567ECBA0060AFE6 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		DB1F389A1567ECBA0060AFE6 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		DB1F389B1567ECBA0060AFE6 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		DB1F389C1567ECBA0060AFE6 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1F385E1567EC1B0060AFE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1F38831567EC2F0060AFE6 /* libsqlite3.0.dylib in Frameworks */,
+				DB1F38661567EC1B0060AFE6 /* UIKit.framework in Frameworks */,
+				DB1F38681567EC1B0060AFE6 /* Foundation.framework in Frameworks */,
+				DB1F386A1567EC1B0060AFE6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1F38561567EC1B0060AFE6 = {
+			isa = PBXGroup;
+			children = (
+				DB1F38841567EC420060AFE6 /* FMDB */,
+				DB1F386B1567EC1B0060AFE6 /* KensakuNikki */,
+				DB1F38641567EC1B0060AFE6 /* Frameworks */,
+				DB1F38621567EC1B0060AFE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1F38621567EC1B0060AFE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1F38611567EC1B0060AFE6 /* KensakuNikki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1F38641567EC1B0060AFE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB1F38821567EC2F0060AFE6 /* libsqlite3.0.dylib */,
+				DB1F38651567EC1B0060AFE6 /* UIKit.framework */,
+				DB1F38671567EC1B0060AFE6 /* Foundation.framework */,
+				DB1F38691567EC1B0060AFE6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB1F386B1567EC1B0060AFE6 /* KensakuNikki */ = {
+			isa = PBXGroup;
+			children = (
+				DB1F38741567EC1B0060AFE6 /* AppDelegate.h */,
+				DB1F38751567EC1B0060AFE6 /* AppDelegate.m */,
+				DB1F38771567EC1B0060AFE6 /* ViewController.h */,
+				DB1F38781567EC1B0060AFE6 /* ViewController.m */,
+				DB1F387A1567EC1B0060AFE6 /* ViewController.xib */,
+				DB1F38981567ECBA0060AFE6 /* WebViewController.h */,
+				DB1F38991567ECBA0060AFE6 /* WebViewController.m */,
+				DB1F389A1567ECBA0060AFE6 /* WebViewController.xib */,
+				DB1F389B1567ECBA0060AFE6 /* Util.h */,
+				DB1F389C1567ECBA0060AFE6 /* Util.m */,
+				DB1F386C1567EC1B0060AFE6 /* Supporting Files */,
+			);
+			path = KensakuNikki;
+			sourceTree = "<group>";
+		};
+		DB1F386C1567EC1B0060AFE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB1F386D1567EC1B0060AFE6 /* KensakuNikki-Info.plist */,
+				DB1F386E1567EC1B0060AFE6 /* InfoPlist.strings */,
+				DB1F38711567EC1B0060AFE6 /* main.m */,
+				DB1F38731567EC1B0060AFE6 /* KensakuNikki-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB1F38841567EC420060AFE6 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				DB1F38851567EC420060AFE6 /* FMDatabase.h */,
+				DB1F38861567EC420060AFE6 /* FMDatabase.m */,
+				DB1F38871567EC420060AFE6 /* FMDatabaseAdditions.h */,
+				DB1F38881567EC420060AFE6 /* FMDatabaseAdditions.m */,
+				DB1F38891567EC420060AFE6 /* FMDatabasePool.h */,
+				DB1F388A1567EC420060AFE6 /* FMDatabasePool.m */,
+				DB1F388B1567EC420060AFE6 /* FMDatabaseQueue.h */,
+				DB1F388C1567EC420060AFE6 /* FMDatabaseQueue.m */,
+				DB1F388D1567EC420060AFE6 /* FMResultSet.h */,
+				DB1F388E1567EC420060AFE6 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1F38601567EC1B0060AFE6 /* KensakuNikki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1F387F1567EC1B0060AFE6 /* Build configuration list for PBXNativeTarget "KensakuNikki" */;
+			buildPhases = (
+				DB1F385D1567EC1B0060AFE6 /* Sources */,
+				DB1F385E1567EC1B0060AFE6 /* Frameworks */,
+				DB1F385F1567EC1B0060AFE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KensakuNikki;
+			productName = KensakuNikki;
+			productReference = DB1F38611567EC1B0060AFE6 /* KensakuNikki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1F38581567EC1B0060AFE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Keio University";
+			};
+			buildConfigurationList = DB1F385B1567EC1B0060AFE6 /* Build configuration list for PBXProject "KensakuNikki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB1F38561567EC1B0060AFE6;
+			productRefGroup = DB1F38621567EC1B0060AFE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1F38601567EC1B0060AFE6 /* KensakuNikki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1F385F1567EC1B0060AFE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1F38701567EC1B0060AFE6 /* InfoPlist.strings in Resources */,
+				DB1F387C1567EC1B0060AFE6 /* ViewController.xib in Resources */,
+				DB1F389E1567ECBA0060AFE6 /* WebViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1F385D1567EC1B0060AFE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1F38721567EC1B0060AFE6 /* main.m in Sources */,
+				DB1F38761567EC1B0060AFE6 /* AppDelegate.m in Sources */,
+				DB1F38791567EC1B0060AFE6 /* ViewController.m in Sources */,
+				DB1F388F1567EC420060AFE6 /* FMDatabase.m in Sources */,
+				DB1F38901567EC420060AFE6 /* FMDatabaseAdditions.m in Sources */,
+				DB1F38911567EC420060AFE6 /* FMDatabasePool.m in Sources */,
+				DB1F38921567EC420060AFE6 /* FMDatabaseQueue.m in Sources */,
+				DB1F38931567EC420060AFE6 /* FMResultSet.m in Sources */,
+				DB1F389D1567ECBA0060AFE6 /* WebViewController.m in Sources */,
+				DB1F389F1567ECBA0060AFE6 /* Util.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB1F386E1567EC1B0060AFE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1F386F1567EC1B0060AFE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB1F387A1567EC1B0060AFE6 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1F387B1567EC1B0060AFE6 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB1F387D1567EC1B0060AFE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB1F387E1567EC1B0060AFE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1F38801567EC1B0060AFE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KensakuNikki/KensakuNikki-Prefix.pch";
+				INFOPLIST_FILE = "KensakuNikki/KensakuNikki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB1F38811567EC1B0060AFE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KensakuNikki/KensakuNikki-Prefix.pch";
+				INFOPLIST_FILE = "KensakuNikki/KensakuNikki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1F385B1567EC1B0060AFE6 /* Build configuration list for PBXProject "KensakuNikki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1F387D1567EC1B0060AFE6 /* Debug */,
+				DB1F387E1567EC1B0060AFE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1F387F1567EC1B0060AFE6 /* Build configuration list for PBXNativeTarget "KensakuNikki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1F38801567EC1B0060AFE6 /* Debug */,
+				DB1F38811567EC1B0060AFE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1F38581567EC1B0060AFE6 /* Project object */;
+}
