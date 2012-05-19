@@ -33,7 +33,6 @@
     [self.view addSubview:tf];
 	
     
-    _tableView = [[UITableView alloc] init];
     _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 100, 320, 365) style:UITableViewStyleGrouped];
     _tableView.dataSource = self;
     _tableView.delegate = self;
