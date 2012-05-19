@@ -186,13 +186,12 @@
     
     NSString *strWords = [[NSString alloc] initWithFormat:@"%@",tf.text];
     
-    NSString*   sqll = @"CREATE TABLE IF NOT EXISTS words (id INTEGER PRIMARY KEY AUTOINCREMENT,words TEXT,date TEXT)"; 
+    NSString *sqll = @"CREATE TABLE IF NOT EXISTS words (id INTEGER PRIMARY KEY AUTOINCREMENT,words TEXT,date TEXT)"; 
     
     NSDate *today = [NSDate date];
     NSLocale *locale_ja;
     locale_ja = [[NSLocale alloc] initWithLocaleIdentifier:@"ja_JP"] ;
-    NSDateFormatter *formatter;
-    formatter = [[NSDateFormatter alloc]init];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateStyle:NSDateFormatterMediumStyle];
     [formatter setLocale:locale_ja];
     NSString *strTime = [[NSString alloc] initWithFormat:@"%@",[formatter stringFromDate:today]];
