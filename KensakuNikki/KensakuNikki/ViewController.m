@@ -207,7 +207,7 @@
     
     WebViewController *dialog = [[WebViewController alloc] init];
     dialog.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
-    dialog.eleData = [NSString stringWithString:[Util urlencode:tf.text]];
+    dialog.eleData = [NSString stringWithString:[Util urlencode:strWords]];
     [self presentModalViewController:dialog animated:YES];
     
 }
