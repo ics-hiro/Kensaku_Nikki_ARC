@@ -11,7 +11,7 @@
 
 @interface WebViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIWebView *wv;
-@property (nonatomic,retain) NSString *eleData;
+@property (nonatomic,retain) NSString *encoded_word;
 - (IBAction)toHome:(id)sender;
 
 @end
